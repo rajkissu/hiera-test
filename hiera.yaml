@@ -1,0 +1,14 @@
+---
+:backends:
+  - "yaml"
+  - "gpg"
+  - "json"
+:hierarchy:
+  - "common"
+  - "defaults"
+:yaml:
+  :datadir: "/etc/puppet/hieradata/yaml"
+:gpg:
+  :datadir: "/etc/puppet/hieradata/gpg"
+:json:
+  :datadir: "/etc/puppet/hieradata/json"
